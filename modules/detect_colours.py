@@ -66,7 +66,7 @@ class DetectBlue:
         cv2.drawContours(img, contours, -1, (0, 255, 0), 2)
 
         # Show the annotated detection!
-        cv2.imwrite(str(output_path), img)
+        cv2.imwrite(str(output_path), res)
 
         # Show res to see the result of what is being filtered in the colour detection
         # cv2.imwrite(str(output_path), res)
@@ -140,7 +140,7 @@ class DetectRed:
         cv2.drawContours(img, contours, -1, (0, 255, 0), 2)
 
         # Show the annotated detection!
-        cv2.imwrite(str(output_path), img)
+        cv2.imwrite(str(output_path), res)
 
         # Show res to see the result of what is being filtered in the colour detection
         # cv2.imwrite(str(output_path), res)
